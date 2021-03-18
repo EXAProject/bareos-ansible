@@ -1,4 +1,4 @@
 - name: Bareos clients
-  hosts: clients
+  hosts: all
   roles:
     - role: bareos-client
